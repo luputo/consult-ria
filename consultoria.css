@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal{
+   margin: 3rem;
+}
+.main-consultor{
+   border-left: 10px solid orange;
+}
+header{
+    background: rgb(rgb(233, 222, 222), rgb(242, 250, 242), white);
+
+}
+.menu-container{
+   display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bolder;
+}
+ ul li{
+    display: inline-block;
+    padding: 10px;
+  
+ }
+
+ #d{
+    color: red;
+ }
+ .main-service{
+    border-left: 10px solid orange;
+    margin: 1rem;
+    padding-left: 5px;
+ }
+ .service{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    margin: 1rem;
+ }
+
+ .contability{
+   padding: 1rem;
+    border: 1px solid rgb(75, 75, 75);
+    border-left: 10px solid orange;
+ }
+
+ .main-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background:#000120fb;
+    grid-gap: 10px;
+    height: 200px;
+    padding: 1rem;
+ }
+
+ .itens-container{
+   background: #000120fb
+   width: 30%;
+ }
+
+
